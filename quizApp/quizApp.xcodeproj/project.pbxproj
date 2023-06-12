@@ -16,9 +16,7 @@
 		3C3B646C2A36A59F003239B3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B646B2A36A59F003239B3 /* QuizViewController.swift */; };
 		3C3B646E2A36A64A003239B3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B646D2A36A64A003239B3 /* ScoreViewController.swift */; };
 		3C3B64702A36AA24003239B3 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B646F2A36AA24003239B3 /* quiz.csv */; };
-		3C3B64772A36C7D0003239B3 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64762A36C7D0003239B3 /* correct.png */; };
-		3C3B64792A36C7D5003239B3 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64782A36C7D5003239B3 /* incorrect.png */; };
-		3C3B647B2A36D7BE003239B3 /* dig-logo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B647A2A36D7BE003239B3 /* dig-logo.ico */; };
+		3C3B64B42A36F918003239B3 /* dig-logo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64B32A36F918003239B3 /* dig-logo.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +31,7 @@
 		3C3B646B2A36A59F003239B3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3C3B646D2A36A64A003239B3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		3C3B646F2A36AA24003239B3 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
-		3C3B64762A36C7D0003239B3 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
-		3C3B64782A36C7D5003239B3 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
-		3C3B647A2A36D7BE003239B3 /* dig-logo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "dig-logo.ico"; sourceTree = "<group>"; };
+		3C3B64B32A36F918003239B3 /* dig-logo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "dig-logo.ico"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +72,7 @@
 				3C3B646D2A36A64A003239B3 /* ScoreViewController.swift */,
 				3C3B646B2A36A59F003239B3 /* QuizViewController.swift */,
 				3C3B64602A36A336003239B3 /* Assets.xcassets */,
-				3C3B647A2A36D7BE003239B3 /* dig-logo.ico */,
-				3C3B64782A36C7D5003239B3 /* incorrect.png */,
-				3C3B64762A36C7D0003239B3 /* correct.png */,
+				3C3B64B32A36F918003239B3 /* dig-logo.ico */,
 				3C3B64622A36A336003239B3 /* LaunchScreen.storyboard */,
 				3C3B64652A36A336003239B3 /* Info.plist */,
 			);
@@ -144,11 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3B64642A36A336003239B3 /* LaunchScreen.storyboard in Resources */,
-				3C3B64772A36C7D0003239B3 /* correct.png in Resources */,
+				3C3B64B42A36F918003239B3 /* dig-logo.ico in Resources */,
 				3C3B64612A36A336003239B3 /* Assets.xcassets in Resources */,
 				3C3B645F2A36A335003239B3 /* Main.storyboard in Resources */,
-				3C3B647B2A36D7BE003239B3 /* dig-logo.ico in Resources */,
-				3C3B64792A36C7D5003239B3 /* incorrect.png in Resources */,
 				3C3B64702A36AA24003239B3 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

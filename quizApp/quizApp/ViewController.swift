@@ -8,26 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var digIcon: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // 使用例
-        startRotatingView(view: logoImage)
+        // 回転 "transform.rotation.y" x,y,z 指定することで方向を変えれる。
+        let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation.y")
+        rotationAnimation.toValue = CGFloat(Double.pi / 180) * 360
+        rotationAnimation.duration = 3.0
+        rotationAnimation.repeatCount = .greatestFiniteMagnitude
+
+        digIcon.layer.add(rotationAnimation, forKey: "rotationAnimation")
 
         // Do any additional setup after loading the view.
     }
-    //回転させる処理
-    func startRotatingView(view: UIView, duration: Double = 1.0) {
-        UIView.animate(withDuration: duration, delay: 0.0, options: .curveLinear, animations: {
-            view.transform = view.transform.rotated(by: CGFloat.pi)
-            view.transform = view.transform.rotated(by: CGFloat.pi)
-        }) { (_) in
-            self.startRotatingView(view: view, duration: duration)
-        }
-    }
-
-
 }
 
