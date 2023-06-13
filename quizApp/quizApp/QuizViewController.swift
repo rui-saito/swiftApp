@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AVFoundation
 class QuizViewController: UIViewController {
     //紐付けはMainファイルからラベルなどのパーツをctrl + ドラッグアンドドロップ
     @IBOutlet weak var quizNumberLabel: UILabel!
@@ -18,6 +18,12 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var judgeImageView: UIImageView!
     @IBOutlet weak var faceImage: UIImageView!
     @IBOutlet weak var hintLabel: UILabel!
+    //音楽用
+    let musicPath1 = Bundle.main.bundleURL.appendingPathComponent("quiz2.mp3")
+    let musicPath2 = Bundle.main.bundleURL.appendingPathComponent("quiz1.mp3")
+    var musicPlayer = AVAudioPlayer()
+
+    
     //csvファイルを１行毎で配列に格納する変数
     var csvArray: [String] = []
     //1問ずつ抽出したデータ
@@ -66,11 +72,24 @@ class QuizViewController: UIViewController {
         //押されたボタンのタグと問題データのindex3が正解なのでそれと比較
         if sender.tag == Int(quizArray[3]){
             print("正解")
+            do {
+                musicPlayer = try AVAudioPlayer(contentsOf: musicPath1)
+                musicPlayer.play()
+            } catch {
+                print("効果音の再生に失敗しました")
+            }
             correctCount += 1
             judgeImageView.image = UIImage(named: "correct")
         } else {
             print("不正解")
+            do {
+                musicPlayer = try AVAudioPlayer(contentsOf: musicPath2)
+                musicPlayer.play()
+            } catch {
+                print("効果音の再生に失敗しました")
+            }
             judgeImageView.image = UIImage(named: "incorrect")
+            
         }
         print("スコア：\(correctCount)")
         judgeImageView.isHidden = false
@@ -79,7 +98,8 @@ class QuizViewController: UIViewController {
         answerButton3.isEnabled = false
         answerButton4.isEnabled = false
         // 0.5秒後に画像を非表示にする
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5 ) {
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0 ) {
             self.judgeImageView.isHidden = true
             //クロージャーだからselfが必要
             self.judgeImageView.isHidden = true
@@ -110,7 +130,9 @@ class QuizViewController: UIViewController {
             answerButton4.setTitle(quizArray[7], for: .normal)
 
         } else {
-            performSegue(withIdentifier: "toScoreVC", sender: nil)
+                self.performSegue(withIdentifier: "toScoreVC", sender: nil)
+            
+            
         }
     }
     

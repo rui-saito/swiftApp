@@ -11,12 +11,19 @@
 		3C3B645A2A36A335003239B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B64592A36A335003239B3 /* SceneDelegate.swift */; };
 		3C3B645C2A36A335003239B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B645B2A36A335003239B3 /* ViewController.swift */; };
 		3C3B645F2A36A335003239B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B645D2A36A335003239B3 /* Main.storyboard */; };
-		3C3B64612A36A336003239B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64602A36A336003239B3 /* Assets.xcassets */; };
 		3C3B64642A36A336003239B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64622A36A336003239B3 /* LaunchScreen.storyboard */; };
 		3C3B646C2A36A59F003239B3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B646B2A36A59F003239B3 /* QuizViewController.swift */; };
 		3C3B646E2A36A64A003239B3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B646D2A36A64A003239B3 /* ScoreViewController.swift */; };
 		3C3B64702A36AA24003239B3 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B646F2A36AA24003239B3 /* quiz.csv */; };
 		3C3B64B42A36F918003239B3 /* dig-logo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64B32A36F918003239B3 /* dig-logo.ico */; };
+		3C3B64C62A380DF3003239B3 /* tin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64C12A380DF3003239B3 /* tin.mp3 */; };
+		3C3B64C72A380DF3003239B3 /* donpahu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64C22A380DF3003239B3 /* donpahu.mp3 */; };
+		3C3B64C82A380DF3003239B3 /* jan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64C32A380DF3003239B3 /* jan.mp3 */; };
+		3C3B64C92A380DF3003239B3 /* quiz1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64C42A380DF3003239B3 /* quiz1.mp3 */; };
+		3C3B64CA2A380DF3003239B3 /* quiz2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64C52A380DF3003239B3 /* quiz2.mp3 */; };
+		3C3B64CC2A38224C003239B3 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64CB2A38224C003239B3 /* music1.mp3 */; };
+		3C3B64CE2A382252003239B3 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64CD2A382252003239B3 /* music2.mp3 */; };
+		3C3B64CF2A383E03003239B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B64602A36A336003239B3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		3C3B646D2A36A64A003239B3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		3C3B646F2A36AA24003239B3 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 		3C3B64B32A36F918003239B3 /* dig-logo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "dig-logo.ico"; sourceTree = "<group>"; };
+		3C3B64C12A380DF3003239B3 /* tin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tin.mp3; sourceTree = "<group>"; };
+		3C3B64C22A380DF3003239B3 /* donpahu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = donpahu.mp3; sourceTree = "<group>"; };
+		3C3B64C32A380DF3003239B3 /* jan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jan.mp3; sourceTree = "<group>"; };
+		3C3B64C42A380DF3003239B3 /* quiz1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = quiz1.mp3; path = ../../../../../../Downloads/quiz1.mp3; sourceTree = "<group>"; };
+		3C3B64C52A380DF3003239B3 /* quiz2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = quiz2.mp3; path = ../../../../../../Downloads/quiz2.mp3; sourceTree = "<group>"; };
+		3C3B64CB2A38224C003239B3 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		3C3B64CD2A382252003239B3 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,13 @@
 				3C3B646B2A36A59F003239B3 /* QuizViewController.swift */,
 				3C3B64602A36A336003239B3 /* Assets.xcassets */,
 				3C3B64B32A36F918003239B3 /* dig-logo.ico */,
+				3C3B64C22A380DF3003239B3 /* donpahu.mp3 */,
+				3C3B64C32A380DF3003239B3 /* jan.mp3 */,
+				3C3B64C42A380DF3003239B3 /* quiz1.mp3 */,
+				3C3B64C52A380DF3003239B3 /* quiz2.mp3 */,
+				3C3B64C12A380DF3003239B3 /* tin.mp3 */,
+				3C3B64CB2A38224C003239B3 /* music1.mp3 */,
+				3C3B64CD2A382252003239B3 /* music2.mp3 */,
 				3C3B64622A36A336003239B3 /* LaunchScreen.storyboard */,
 				3C3B64652A36A336003239B3 /* Info.plist */,
 			);
@@ -137,10 +158,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3B64CA2A380DF3003239B3 /* quiz2.mp3 in Resources */,
+				3C3B64CC2A38224C003239B3 /* music1.mp3 in Resources */,
+				3C3B64C62A380DF3003239B3 /* tin.mp3 in Resources */,
+				3C3B64CE2A382252003239B3 /* music2.mp3 in Resources */,
 				3C3B64642A36A336003239B3 /* LaunchScreen.storyboard in Resources */,
+				3C3B64C72A380DF3003239B3 /* donpahu.mp3 in Resources */,
 				3C3B64B42A36F918003239B3 /* dig-logo.ico in Resources */,
-				3C3B64612A36A336003239B3 /* Assets.xcassets in Resources */,
+				3C3B64C92A380DF3003239B3 /* quiz1.mp3 in Resources */,
 				3C3B645F2A36A335003239B3 /* Main.storyboard in Resources */,
+				3C3B64C82A380DF3003239B3 /* jan.mp3 in Resources */,
+				3C3B64CF2A383E03003239B3 /* Assets.xcassets in Resources */,
 				3C3B64702A36AA24003239B3 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

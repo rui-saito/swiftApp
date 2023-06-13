@@ -14,8 +14,8 @@
             filePath = "quizApp/ScoreViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "toTopButtonAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "quizApp/ScoreViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "toTopButtonAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
