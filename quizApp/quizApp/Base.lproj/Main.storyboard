@@ -16,12 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DIGメンバーQuiz " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqa-bI-qrx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIGメンバーQuiz " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqa-bI-qrx">
                                 <rect key="frame" x="0.0" y="99" width="393" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51458907127380371" green="0.46594059467315674" blue="0.41906926035881042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="See-Q7-RWp"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="34"/>
                                 <color key="textColor" red="0.95444315671920776" green="0.90870851278305054" blue="0.82066541910171509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -67,14 +65,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="dig-logo.ico" translatesAutoresizingMaskIntoConstraints="NO" id="UTR-ft-vcP">
-                                <rect key="frame" x="68.333333333333314" y="298" width="256" height="256"/>
+                                <rect key="frame" x="68.666666666666686" y="298" width="256" height="256"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Pv-jg-cfg">
-                                <rect key="frame" x="84.333333333333314" y="624" width="224" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="224" id="S2F-cW-rua"/>
-                                    <constraint firstAttribute="height" constant="64" id="TyL-Pc-Iml"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Pv-jg-cfg">
+                                <rect key="frame" x="84.666666666666686" y="624" width="224" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="スタート" cornerStyle="large">
@@ -93,12 +88,8 @@
                         <color key="backgroundColor" red="0.95444315671920776" green="0.90870851278305054" blue="0.82066541910171509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UTR-ft-vcP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BS8-Hr-c2u"/>
-                            <constraint firstItem="Fqa-bI-qrx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="E9L-c1-UGt"/>
                             <constraint firstItem="UTR-ft-vcP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ry3-di-Ae6"/>
-                            <constraint firstItem="6Pv-jg-cfg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84.400000000000006" id="TcN-7d-FWW"/>
-                            <constraint firstItem="6Pv-jg-cfg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eel-1U-HZM"/>
                             <constraint firstItem="UTR-ft-vcP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="stQ-uQ-0Px"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Pv-jg-cfg" secondAttribute="trailing" constant="84.400000000000006" id="u2K-OI-lcR"/>
                         </constraints>
                     </view>
                     <connections>
@@ -281,7 +272,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

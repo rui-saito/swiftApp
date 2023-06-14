@@ -16,9 +16,10 @@ class ViewController: UIViewController, CAAnimationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //音楽の設定
         musicRandom = [musicPath1, musicPath2]
         randomNumber = Int(arc4random_uniform(2))
-        
+        //画像の回転
         startRotationAnimation()
         do {
             musicPlayer = try AVAudioPlayer(contentsOf: musicRandom[randomNumber])
@@ -26,6 +27,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
         } catch {
             print("効果音の再生に失敗しました")
         }
+
     }
 
     @IBAction func music(_ sender: UIButton) {
@@ -68,5 +70,6 @@ class ViewController: UIViewController, CAAnimationDelegate {
         }
     }
     
+
     // ...
 }

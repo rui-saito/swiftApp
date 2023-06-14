@@ -32,7 +32,7 @@ class ScoreViewController: UIViewController {
                     print("効果音の再生に失敗しました")
                 }
             }
-        } else if self.correct > 9 && self.correct < 7 {
+        } else if self.correct > 5 && self.correct <= 9 {
             ansText.text = "good answer!"
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0){
                 do {
