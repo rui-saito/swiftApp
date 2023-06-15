@@ -21,12 +21,12 @@ class ViewController: UIViewController, CAAnimationDelegate {
         randomNumber = Int(arc4random_uniform(2))
         //画像の回転
         startRotationAnimation()
-        do {
-            musicPlayer = try AVAudioPlayer(contentsOf: musicRandom[randomNumber])
-            musicPlayer.play()
-        } catch {
-            print("効果音の再生に失敗しました")
-        }
+//        do {
+//            musicPlayer = try AVAudioPlayer(contentsOf: musicRandom[randomNumber])
+//            musicPlayer.play()
+//        } catch {
+//            print("効果音の再生に失敗しました")
+//        }
 
     }
 
